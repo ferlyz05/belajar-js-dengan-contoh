@@ -45,6 +45,7 @@ docpadConfig = {
 
             # The website's styles
             styles: [
+                '/styles/pure-custom.css',
                 '/styles/monokai.css',
                 '/styles/style.css'
             ]
