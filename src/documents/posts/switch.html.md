@@ -50,3 +50,20 @@ switch (angka) {
 ```
 
 Jadi, `switch` meggunakan konsep `===`.
+
+Bagaimana kalau mau lebih seru lagi:
+```javascript
+var angka = 10;
+
+switch (true) {
+    case angka > 5:
+        console.log("Lebih besar dari 5");
+        break;
+    case angka < 5:
+        console.log("Lebih kecil dari 5");
+        break;
+    default:
+        console.log("zzzz");
+}
+
+```
