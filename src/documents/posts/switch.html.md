@@ -30,3 +30,23 @@ switch ( makananKesukaan ) {
         console.log("saya tidak suka makan..bwahahaha");
 }
 ```
+
+Pertanyaan, ketika melakukan perbandingan nilai, `switch` ini menggunakan konsep `==` atau `===` ya? Mari kita uji coba
+
+```javascript
+var angka = 10;
+
+switch (angka) {
+    case "10":
+        console.log("Bentuk string dan bernilai '10'");
+        break;
+    case 10:
+        console.log("Bentuk integer dan bernilai 10");
+        break;
+    default:
+        console.log("zzzz");
+}
+// hasilnya = "Bentuk integer dan bernilai 10"
+```
+
+Jadi, `switch` meggunakan konsep `===`.
