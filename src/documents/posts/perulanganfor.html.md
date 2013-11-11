@@ -42,3 +42,26 @@ for (;;) {
     console.log("selamanya"); // tidak dianjurkan dilakukan di rumah.
 }
 ```
+
+Tidak ingin dimulai dari `0`?
+``` javascript
+for (i = 5; i < 10; i++) {
+    console.log(i);
+}
+// hasilnya 5, 6, 7, 8, 9
+```
+
+Bagaimana bila pada tiap perulangan, jumlah yang berubah tidaklah 1 saja seperti contoh di atas?
+``` javascript
+// pada tiap perulangan, kita naikkan nilai i sebanyak 2 jumlah
+for (i = 0; i < 10; i += 2) {
+    console.log(i);
+}
+// hasilnya 0, 2, 4, 6, 8
+
+// pada tiap perulangan, kita naikkan nilai i sebanyak 2 jumlah
+for (i = 10; i > 0; i -= 2) {
+    console.log(i);
+}
+// hasilnya 10, 8, 6, 4, 2
+```

@@ -11,9 +11,9 @@
             h3.title-font
             | Bab
 
-        nav.chapters
-            <% for doc in @getCollection("posts").toJSON(): %>
+        .chapters
             ul.nav-list
+            <% for doc in @getCollection("posts").toJSON(): %>
                 li
                     h4.title-font
                         a.front-color(href!="<%= doc.url %>") <%= doc.title %>

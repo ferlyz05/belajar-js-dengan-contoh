@@ -16,11 +16,13 @@ var satu = 1,
  * Contoh Unary Operator
  */
 
+// kita naikkan nilai dari satu sebanyak 1 kali
 satu++;
 satu++;
 
 console.log(satu); // 3
 
+// kita turunkan nilai dari satu sebanyak 1 kali
 satu--;
 
 console.log(satu); // 2
