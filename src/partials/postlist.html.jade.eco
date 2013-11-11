@@ -1,3 +1,6 @@
+.p
+| Ebook ini masih dalam tahapan perkemgangan. Sering-seringlah datang kemari untuk memperoleh artikel terbaru.
+
 .posts
     <% for doc in @getCollection("posts").toJSON(): %>
     section.post

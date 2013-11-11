@@ -2,6 +2,8 @@
 
 Ini adalah sebuah ebook gratis yang menerangkan secara singkat (..semoga..) apa itu dan bagaimana menggunakan Javascript.
 
+STATUS: Masih dalam perkembangan.
+
 ## Ingin membantu mengembangkan buku ini?
 
 Luar biasa. Saya berterimakasih terlebih dahulu karena sudah berkeinginan untuk membantu mengembangkan buku ini.
