@@ -8,7 +8,7 @@ docpadConfig = {
             @getCollection("html").findAllLive({isPage:true})
 
         posts: ->
-            @getCollection("documents").findAllLive({relativeOutDirPath:'posts'},[{urutan: -1}])
+            @getCollection("documents").findAllLive({relativeOutDirPath:'posts'},[{urutan: 1}])
 	# =================================
     # Template Data
     # These are variables that will be accessible via our templates
