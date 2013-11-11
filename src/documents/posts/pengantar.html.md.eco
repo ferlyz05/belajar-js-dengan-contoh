@@ -1,0 +1,32 @@
+---
+title: Pengantar
+urutan: 1
+author: 'A. Akbar Hidayat'
+layout: article
+---
+
+## Apa itu Javascript?
+
+Javascript itu adalah bahasa pemrograman. Menurut saya enaknya begitu saja.
+
+Dulu sih javascript ini sering dicap sebagai bahasanya web. Namun saat ini, javascript sudah bisa berjalan pada platform yang lebih baik.
+
+## Javascript dapat digunakan untuk membuat apa?
+
+Kita dapat menggunakan javascript untuk membuat aplikasi yang berjalan di browser (seperti gmail, facebook, twitter). Kita bisa membuat permainan dengan menggunakan javascript. Kita bisa membuat aplikasi edukasi, aplikasi untuk smartphone, aplikasi untuk server, dsb.
+
+Bahkan kita bisa membuat aplikasi menggunakan javascript untuk berjalan di robot.
+
+Seru bukan?
+
+## Apa yang dibutuhkan untuk mulai?
+
+Sederhananya, kita sebuah browser saja.
+
+Jika kamu menggunakan Firefox, maka untuk bermain-main dengan javascript, kamu dapat menekan tombol ctrl+k, maka firefox akan menampilkan sebuah *developer tool* seperti gambar berikut:
+
+![](<%= @getUrls("/pics/firefox-developer-tool.png") %>)
+
+Jika kamu menggunakan Chrome, maka tekanlah ctrl+shift+j. *Developer tool* milik chrome adalah seperti gambar berikut:
+
+![](<%= @getUrls("/pics/chrome-developer-tool.png") %>)
