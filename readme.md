@@ -39,4 +39,5 @@ Kemudian, pasanglah pustaka-pustaka yang dibutuhkan dengan menjalankan perintah 
 
 Untuk membaca dokumentasinya, silahkan menjalankan perintah berikut:
 
-> docpad run 
+> docpad run
+ 
