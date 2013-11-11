@@ -16,8 +16,5 @@ layout: default
         </div>
         <div class="related-articles">
         </div>
-        <footer class="footer">
-            <%- @partial('footer') %>
-        </footer>
     </div>
 </div>

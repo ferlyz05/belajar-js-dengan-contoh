@@ -5,9 +5,13 @@
                 h2.title-font.brand-title
                     a.front-color(href!="<%= @site.url %>") <%= @site.title %>
 
-        nav.nav
+        .bab
+            h3.title-font
+            | Bab
+
+        nav.chapters
             <% for doc in @getCollection("posts").toJSON(): %>
             ul.nav-list
-                li.nav-item
-                    h4.post-title.title-font
+                li
+                    h4.title-font
                         a.front-color(href!="<%= doc.url %>") <%= doc.title %>
