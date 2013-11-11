@@ -16,4 +16,4 @@
             <% for doc in @getCollection("posts").toJSON(): %>
                 li
                     h4.title-font
-                        a.front-color(href!="<%= doc.url %>") <%= doc.title %>
+                        a.front-color(href!="<%= @getUrls(doc.url) %>") <%= doc.title %>
