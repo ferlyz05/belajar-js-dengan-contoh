@@ -1,6 +1,6 @@
 ---
 title: Pengantar
-date: 01-01-2013
+urutan: 1
 author: 'A. Akbar Hidayat'
 layout: article
 ---
