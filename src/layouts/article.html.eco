@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="pure-g-r" id="layout">
+    <div class="pure-u">
+        <%- @partial('sidebar') %>
+    </div>
+
+    <div class="pure-u-1">
+        <h1 class="title-font front-color article-title"><%= @document.title %></h1>
+        <div class="article-navigation">
+        </div>
+        <div class="content content-font">
+            <%- @content %>
+        </div>
+        <div class="related-articles">
+        </div>
+        <footer class="footer">
+            <%- @partial('footer') %>
+        </footer>
+    </div>
+</div>

@@ -1,0 +1,179 @@
+/* Your styles go here */
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+*
+    -webkit-box-sizing border-box
+    -moz-box-sizing border-box
+    box-sizing border-box
+
+fonts = 'Lato', sans-serif
+
+/* BRAND STYLE */
+red = #E74C3C
+blue = #1E9CCC
+white = #ECF0F1
+light-grey = #F7F7F7
+
+.front-color
+    color red
+
+.background-color
+    background-color red
+
+.light-background
+    background-color light-grey
+
+.dark-front-color
+    color #838383
+
+.title-font
+    font-family fonts
+
+
+/* SHARED */
+.title-left-border
+    border-left 8px solid red
+    padding-left 0
+    margin-left -12%
+
+.seperator
+    border 1px solid #E5E5E5
+
+/* LAYOUT CSS */
+#layout
+    padding-left 25% /* "left col (nav + list)" width */
+    position relative
+
+.sidebar
+    position fixed
+    top 0
+    bottom 0
+    width 25%
+    margin-left -25%
+
+.header
+    margin 10% 2em 0
+    text-align center
+
+.brand-title, .brand-tagline
+    margin 0
+
+.brand-title a
+    text-decoration none
+
+/*
+.nav-list
+    margin 0
+    padding 0
+    list-style none
+
+.nav-item
+    display inline-block
+    *display inline
+    zoom 1
+
+.nav-item a
+    background transparent
+    border 3px solid rgb(103, 103, 180)
+    color #fff
+    margin-top 1em
+
+.nav-item a:hover, .nav-item a:focus
+    border 3px solid rgb(142, 142, 214)
+    color rgb(142, 142, 214)
+    text-decoration none
+
+.content-subhead
+    text-transform uppercase
+    color #aaa
+    border-bottom 1px solid #eee
+    padding 0.4em 0
+    font-size 80%
+    font-weight 500
+    letter-spacing 0.1em
+*/
+.content
+    padding-left 2em
+    padding-right 2em
+    
+.content-font
+    font-family serif
+    font-size 16px
+    line-height 1.5em
+
+.post
+    padding-bottom 2em
+
+.post-title
+    font-size 2em
+    margin-bottom 0.2em
+
+.post-title a
+    text-decoration none
+
+.post-author
+    text-decoration none
+
+.post-avatar
+    border-radius 50px
+    float right
+    margin-left 1em
+
+.post-description
+    font-family Georgia, "Cambria", serif
+    color #444
+    line-height 1.8em
+
+.post-meta
+    color #999
+    font-size 90%
+    margin 0
+
+.post-category
+    margin 0 0.1em
+    padding 0.3em 1em
+    color #fff
+    background #999
+    font-size 80%
+
+.post-images
+    margin 1em 0
+
+.post-image-meta
+    margin-top -3.5em
+    margin-left 1em
+    color #fff
+    text-shadow 0 1px 1px #333
+
+.article-title
+    padding-left 1em
+
+.footer
+    text-align center
+    padding 1em 0
+
+.footer a
+    color #ccc
+    font-size 80%
+
+.footer .pure-menu a:hover, .footer .pure-menu a:focus
+    background none
+
+@media (max-width: 767px)
+    .sidebar
+        width 100%
+        position relative
+        margin 0
+
+    .header
+        text-align center
+        top auto
+        margin 3em auto
+        position static
+
+    #layout
+        padding 0
+
+@media (max-width: 480px)
+    .content
+        padding 2em 1em 0

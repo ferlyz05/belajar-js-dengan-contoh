@@ -1,0 +1,13 @@
+.sidebar.light-background.seperator
+    header.header
+        hgroup
+            .title-left-border
+                h2.title-font.brand-title
+                    a.front-color(href!="<%= @site.url %>") <%= @site.title %>
+
+        nav.nav
+            <% for doc in @getCollection("posts").toJSON(): %>
+            ul.nav-list
+                li.nav-item
+                    h4.post-title.title-font
+                        a.front-color(href!="<%= doc.url %>") <%= doc.title %>

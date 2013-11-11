@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+#layout.pure-g-r
+    .pure-u
+        <%- @partial('sidebar') %>
+
+    .pure-u-1
+        .content.
+            <%- @partial('postlist') %>
