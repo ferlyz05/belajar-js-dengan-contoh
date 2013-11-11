@@ -9,6 +9,7 @@ Kita dapat menggunakan fungsi untuk membungkus sebuah perintah. Bungkusan tadi m
 
 ```javascript
 // ini adalah sebuah fungsi, dengan nama cetakNama
+// dan memiliki parameter yaitu `nama`
 function cetakNama( nama ) {
     console.log("Nama saya: " + nama);
 }
@@ -17,4 +18,13 @@ function cetakNama( nama ) {
 // cetakNama dengan cara berikut
 cetakNama("keripix");
 // hasilnya = "Nama saya: keripix"
+
+// ini adalah sebuah fungsi, dengan nama siapaSaya
+// dan memiliki parameter nama dan asal
+function siapaSaya( nama, asal ) {
+    console.log("Saya adalah " + name + ", dan saya berasal dari " + asal);
+}
+
+siapaSaya("keripix", "Indonesia");
+// "Saya adalah , dan saya berasal dari Indonesia"
 ```
