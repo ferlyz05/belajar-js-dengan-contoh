@@ -55,10 +55,14 @@ Bagaimana kalau mau lebih seru lagi:
 ```javascript
 var angka = 10;
 
+// kita melemparkan nilai true pada switch,
+// apa gunanya?
 switch (true) {
+    // untuk memeriksa apakah angka > 5 bernilai true atau tidak
     case angka > 5:
         console.log("Lebih besar dari 5");
         break;
+    // untuk memeriksa apakah angka < 5 bernilai true atau tidak
     case angka < 5:
         console.log("Lebih kecil dari 5");
         break;
