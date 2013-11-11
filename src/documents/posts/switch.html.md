@@ -10,10 +10,14 @@ author: A. Akbar Hidayat
 ```javascript
 var makananKesukaan = "pecel";
 
+// kita akan memeriksa dan membandingkan nilai dari
+// makananKesukaan
 switch ( makananKesukaan ) {
+    // bila makananKesukaan == pecel
     case "pecel":
         console.log("saya suka pecel");
         break; // jangan lupa
+    // bila makananKesukaan == donat
     case "donat":
         console.log("saya suka donat");
         break;
