@@ -7,23 +7,7 @@ author: A. Akbar Hidayat
 
 Kita ingin mengulang beberapa operasi sebanyak 10 kali
 
-```javascript
-for (i = 0; i < 10; i++) {
-    console.log(i);
-}
-// hasilnya = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-
-for (i = 0; i <= 10; i++) {
-    console.log(i);
-}
-// hasilnya = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-
-for (i = 10; i > 0; i--) {
-    console.log(i);
-}
-// hasilnya = 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
-
-```
+<a class="jsbin-embed" href="http://jsbin.com/UWAZuXE/1/embed?js,console">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
 
 Mau lebih ato kurang dari 10 kali?
 ``` javascript
@@ -52,16 +36,5 @@ for (i = 5; i < 10; i++) {
 ```
 
 Bagaimana bila pada tiap perulangan, jumlah yang berubah tidaklah 1 saja seperti contoh di atas?
-``` javascript
-// pada tiap perulangan, kita naikkan nilai i sebanyak 2 jumlah
-for (i = 0; i < 10; i += 2) {
-    console.log(i);
-}
-// hasilnya 0, 2, 4, 6, 8
 
-// pada tiap perulangan, kita naikkan nilai i sebanyak 2 jumlah
-for (i = 10; i > 0; i -= 2) {
-    console.log(i);
-}
-// hasilnya 10, 8, 6, 4, 2
-```
+<a class="jsbin-embed" href="http://jsbin.com/oWolEcAX/1/embed?js,console">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
