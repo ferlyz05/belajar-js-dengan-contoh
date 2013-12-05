@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- Site Properities -->
+	<title>== vs === kapan saat yang tepat untuk menggunakannya? | Belajar Javascript Dengan Contoh</title>
+	<meta name="description" content="belajar javascript dengan mudah dan cepat menggunakan contoh" />
+	<meta name="keywords" content="javascript, belajar javascript, belajar javascript dengan cepat, belajar javascript dengan mudah" />
+
+	<!-- DocPad Meta -->
+	<meta name="generator" content="DocPad v6.53.4" />
+
+	<!-- DocPad Styles + Our Own -->
+	<link  rel="stylesheet" href="http://keripix.github.io/belajar-js-dengan-contoh//styles/pure-custom.css" /><link  rel="stylesheet" href="http://keripix.github.io/belajar-js-dengan-contoh//styles/monokai.css" /><link  rel="stylesheet" href="http://keripix.github.io/belajar-js-dengan-contoh//styles/style.css" />
+
+	<!-- Icons -->
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/icons/favicon.ico" />
+	<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+	<link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-57x57-precomposed.png" />
+	<!-- For first- and second-generation iPad: -->
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/apple-touch-icon-72x72-precomposed.png" />
+	<!-- For iPhone with high-resolution Retina display: -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/apple-touch-icon-114x114-precomposed.png" />
+	<!-- For third-generation iPad with high-resolution Retina display: -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144x144-precomposed.png" />
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+
+	<div class="pure-g-r" id="layout">
+    <div class="pure-u">
+        <div class="sidebar light-background seperator"><header class="header"><hgroup><div class="logo"><img src="http://keripix.github.io/belajar-js-dengan-contoh//logo/red.png"/></div><div class="title-left-border"><h2 class="title-font brand-title"><a href="http://keripix.github.io/belajar-js-dengan-contoh/" class="front-color">Belajar Javascript Dengan Contoh</a></h2></div></hgroup><div class="bab"><h3 class="title-font"></h3>Bab</div><div class="chapters"><ul class="nav-list"><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/pengantar.html" class="front-color">Pengantar</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/hallodunia.html" class="front-color">Hallo Dunia</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/nilai.html" class="front-color">Nilai</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/variabel.html" class="front-color">Variabel</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/bentukdeklarasivariabel.html" class="front-color">Bentuk deklarasi variabel</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/undefined.html" class="front-color">Undefined &amp; Null</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/operasi.html" class="front-color">Operasi</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/jikadanperbandingan.html" class="front-color">Jika &amp; Perbandingan</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/perbandingannilai.html" class="front-color">== vs ===</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/perbandingannilailanjutan.html" class="front-color">== vs === lanjutan</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/perbandingannilaikapanpakainya.html" class="front-color">== vs === kapan saat yang tepat untuk menggunakannya?</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/perulanganfor.html" class="front-color">Perulangan for</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/perulanganwhile.html" class="front-color">Perulangan while</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/keluardariperulangan.html" class="front-color">Keluar dari perulangan</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/switch.html" class="front-color">Switch</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/fungsi.html" class="front-color">Fungsi</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/functionparameterarguments.html" class="front-color">Argumen Fungsi vs Parameter Fungsi</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/arguments.html" class="front-color">Objeck arguments</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/bisaoverloading.html" class="front-color">Function Overloading???</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/deklarasidanekspresi.html" class="front-color">Function Declaration &amp; Function Expression</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/hoisting.html" class="front-color">Hoisting</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/scope.html" class="front-color">Scope</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/scope2.html" class="front-color">Scope Lanjutan</a></h4></li><li><h4 class="title-font"><a href="http://keripix.github.io/belajar-js-dengan-contoh//posts/closure.html" class="front-color">Closure</a></h4></li></ul></div></header></div>
+    </div>
+
+    <div class="pure-u-1">
+        <h1 class="title-font front-color article-title">== vs === kapan saat yang tepat untuk menggunakannya?</h1>
+        <div class="article-navigation">
+        </div>
+        <div class="content content-font">
+            <p>Kapan saatnya menggunakan <code>==</code> dan <code>===</code>?</p>
+<p>Ketika kita hendak melakukan perbandingan dengan tipe nilai berikut, maka dianjurkan menggunakan <code>===</code>.</p>
+<p><code>NaN undefined null false true &quot;&quot; 0</code></p>
+<p>Untuk selainnya, tidak apa-apa menggunkan <code>==</code></p>
+
+        </div>
+        <div class="related-articles">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
