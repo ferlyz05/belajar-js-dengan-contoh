@@ -7,29 +7,7 @@ author: A. Akbar Hidayat
 
 `switch` itu hampir mirip dengan `if`:
 
-```javascript
-var makananKesukaan = "pecel";
-
-// kita akan memeriksa dan membandingkan nilai dari
-// makananKesukaan
-switch ( makananKesukaan ) {
-    // bila makananKesukaan == pecel
-    case "pecel":
-        console.log("saya suka pecel");
-        break; // jangan lupa
-    // bila makananKesukaan == donat
-    case "donat":
-        console.log("saya suka donat");
-        break;
-    case "rujak":
-        console.log("saya suka rujak");
-        break;
-    default:
-        // bila tidak ada pilihan yang cocok, maka kita
-        // masuk pada bagian ini
-        console.log("saya tidak suka makan..bwahahaha");
-}
-```
+<a class="jsbin-embed" href="http://jsbin.com/UXefEqEr/1/embed?js,console">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
 
 Pertanyaan, ketika melakukan perbandingan nilai, `switch` ini menggunakan konsep `==` atau `===` ya? Mari kita uji coba
 
@@ -52,22 +30,5 @@ switch (angka) {
 Jadi, `switch` meggunakan konsep `===`.
 
 Bagaimana kalau mau lebih seru lagi:
-```javascript
-var angka = 10;
 
-// kita melemparkan nilai true pada switch,
-// apa gunanya?
-switch (true) {
-    // untuk memeriksa apakah angka > 5 bernilai true atau tidak
-    case angka > 5:
-        console.log("Lebih besar dari 5");
-        break;
-    // untuk memeriksa apakah angka < 5 bernilai true atau tidak
-    case angka < 5:
-        console.log("Lebih kecil dari 5");
-        break;
-    default:
-        console.log("zzzz");
-}
-
-```
+<a class="jsbin-embed" href="http://jsbin.com/IhELemi/1/embed?js,console">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
