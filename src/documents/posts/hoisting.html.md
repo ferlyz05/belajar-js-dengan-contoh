@@ -7,19 +7,11 @@ author: A. Akbar Hidayat
 
 Untuk memahami apa itu `hoisting`, perhatikan contoh `function declaration` berikut:
 
-    tambah(5, 10); // 15
-    
-    function tambah( pertama, kedua ) {
-        return pertama + kedua;
-    }
+<a class="jsbin-embed" href="http://jsbin.com/iCAKole/1/embed?js,console">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
     
 Lihat bagaimana pada baris pertama contoh di atas, javascript tahu apa itu `tambah`. Tetapi perhatikan contoh `function expression` berikut:
 
-    kurang(5, 10); // TypeError: kurang is not a function
-    
-    var kurang = function(pertama, kedua) {
-        return pertama - kedua;
-    }
+<a class="jsbin-embed" href="http://jsbin.com/UNezUhU/1/embed?js,console">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
     
 Ketika contoh kedua dijalankan, kita memperoleh pesan error. Yaitu `kurang` bukanlah sebuah fungsi. Javascript tidak mengetahui apa itu `kurang`.
 
