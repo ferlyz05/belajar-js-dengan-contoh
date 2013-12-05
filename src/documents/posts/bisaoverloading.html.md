@@ -7,18 +7,6 @@ author: A. Akbar Hidayat
 
 Bagaimana bila terdapat 2 atau lebih fungsi dengan nama yang sama?
 
-    function angka( pertama, kedua ) {
-        console.log(pertama, kedua);
-    }
-    
-    function angka( pertama, kedua ) {
-        console.log(pertama + kedua);
-    }
-    
-    function angka( pertama, kedua ) {
-        console.log(pertama - kedua);
-    }
-    
-    angka(10, 3); // 7
+<a class="jsbin-embed" href="http://jsbin.com/aCeRamA/1/embed?js,console">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
     
 Jadi, metode yang terakhir didefinisikanlah yang memperoleh nama `angka`.
